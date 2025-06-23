@@ -1,8 +1,8 @@
 # candidate-Farooq-tennislore-module-A-B-C-combined-
 TennisLore is a web application designed for tennis enthusiasts to share their unforgettable match-point tales and court-side memories. The platform allows users to submit their stories, vote on their favorite tales, and boost stories for extra visibility within the community.
-# TennisLore - Court Stories 🎾
 
-![TennisLore Preview](https://1drv.ms/i/c/a5c7b3b249acdb83/EaKrnAl4M1BFnzEdVM7LmPkB5R5SPUjd0h3f6dy8_f4T_Q?e=73Slqd)]
+# Live Demo Page:
+# TennisLore - Court Stories 🎾
 
 A community-driven platform where tennis fans share match-point tales, powered by public submissions, voting, and story boosts.
 
@@ -72,8 +72,6 @@ sequenceDiagram
 - UI Elements:
     Net-style borders
     Hover lifts on cards
-### 🚀 Installation
-git clone https://github.com/yourusername/TennisLore.git
-cd TennisLore
-# Open index.html in browser
-View Live Demo <!--  -->
+### 📬 Contact
+   - Syed Umar Farooq - syedumarfarooq2782@gmail.com
+    - Project Link:
