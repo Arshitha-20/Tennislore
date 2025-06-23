@@ -72,6 +72,8 @@ sequenceDiagram
 - UI Elements:
     Net-style borders
     Hover lifts on cards
-### 📬 Contact
-   - Syed Umar Farooq - syedumarfarooq2782@gmail.com
-   - * 🔗 GitHub: https://github.com/SyedFarooq2782
+### 📸 Output Preview:
+Screenshots and a full-page PDF preview are available in the images/ folder
+### 📬 For any details Contact:
+ Syed Umar Farooq - syedumarfarooq2782@gmail.com
+ 🔗 GitHub: https://github.com/SyedFarooq2782
