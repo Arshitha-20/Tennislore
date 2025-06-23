@@ -1,7 +1,7 @@
 # candidate-Farooq-tennislore-module-A-B-C-combined-
 TennisLore is a web application designed for tennis enthusiasts to share their unforgettable match-point tales and court-side memories. The platform allows users to submit their stories, vote on their favorite tales, and boost stories for extra visibility within the community.
 
-# Live Demo Page:
+# Live Page: https://tennislore.netlify.app/
 # TennisLore - Court Stories 🎾
 
 A community-driven platform where tennis fans share match-point tales, powered by public submissions, voting, and story boosts.
