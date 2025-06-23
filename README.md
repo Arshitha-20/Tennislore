@@ -74,4 +74,4 @@ sequenceDiagram
     Hover lifts on cards
 ### 📬 Contact
    - Syed Umar Farooq - syedumarfarooq2782@gmail.com
-    - Project Link:
+   - * 🔗 GitHub: https://github.com/SyedFarooq2782
