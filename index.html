@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TennisLore - Court Stories</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Lato&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="#" class="logo" id="home-link">
+                    <i class="fas fa-table-tennis"></i>
+                    <span>TennisLore</span>
+                </a>
+                <nav>
+                    <a href="#" id="nav-submit">Submit Story</a>
+                    <a href="#" id="nav-vote">Vote</a>
+                    <a href="#" id="nav-boost">Boost</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Court Stories</h1>
+                <p>Share your match-point tales and court-side memories with the tennis community</p>
+                <div class="court-line"></div>
+            </div>
+        </section>
+
+        <section class="main-content" id="main-content">
+            <div class="container">
+                <div class="options">
+                    <div class="option-card">
+                        <div class="card-icon">
+                            <i class="fas fa-pen-fancy"></i>
+                        </div>
+                        <h2>Submit Your Story</h2>
+                        <p>Share your unforgettable tennis moments with our community of enthusiasts.</p>
+                        <a href="#" class="btn" id="submit-story-btn">Submit Now</a>
+                    </div>
+                    
+                    <div class="option-card">
+                        <div class="card-icon">
+                            <i class="fas fa-vote-yea"></i>
+                        </div>
+                        <h2>Vote for Tales</h2>
+                        <p>Help highlight the most compelling stories by casting your vote.</p>
+                        <a href="#" class="btn" id="vote-tales-btn">Vote Now</a>
+                    </div>
+                    
+                    <div class="option-card">
+                        <div class="card-icon">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <h2>Boost a Story</h2>
+                        <p>Give your favorite stories extra visibility with our boost feature.</p>
+                        <a href="#" class="btn" id="boost-story-btn">Boost Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="story-submission" class="hidden">
+            <div class="container">
+                <div class="form-container">
+                    <h2>Submit Your Tennis Story</h2>
+                    <div class="court-line"></div>
+                    <form id="story-form">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" placeholder="John Doe" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" placeholder="john@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="date">Match Date</label>
+                            <input type="date" id="date" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="story">Your Story</label>
+                            <textarea id="story" placeholder="Tell us about your unforgettable tennis moment..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Submit Story</button>
+                    </form>
+                    <div class="back-home">
+                        <a href="#" class="btn btn-outline" id="back-home-1"><i class="fas fa-home"></i> Back to Home</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="community-voting" class="hidden">
+            <div class="container">
+                <div class="form-container">
+                    <h2>Vote for This Tennis Tale</h2>
+                    <div class="court-line"></div>
+                    <div id="vote-widget">
+                        <p class="vote-count">Current Votes: <strong id="vote-count">0</strong></p>
+                        <button id="vote-button" class="btn">Vote for This Tale</button>
+                    </div>
+                    <div class="back-home">
+                        <a href="#" class="btn btn-outline" id="back-home-2"><i class="fas fa-home"></i> Back to Home</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="boost-feature" class="hidden">
+            <div class="container">
+                <div class="form-container">
+                    <h2>Boost This Tennis Tale</h2>
+                    <div class="court-line"></div>
+                    <div class="boost-content">
+                        <div class="boost-icon">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <p class="boost-price">Give this story extra visibility for just <strong>$2</strong></p>
+                        <p class="boost-info">20% of each boost goes to support TennisLore's community initiatives.</p>
+                        <div class="boost-features">
+                            <p><i class="fas fa-check"></i> Featured on homepage for 48 hours</p>
+                            <p><i class="fas fa-check"></i> Priority in search results</p>
+                            <p><i class="fas fa-check"></i> Highlighted in the community feed</p>
+                        </div>
+                    </div>
+                    <button id="boost-button" class="btn boost-btn">
+                        <i class="fas fa-bolt"></i> Boost This Tale for $2
+                    </button>
+                    <div class="back-home">
+                        <a href="#" class="btn btn-outline" id="back-home-3"><i class="fas fa-home"></i> Back to Home</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 TennisLore.com | All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <div class="popup-overlay hidden" id="popup-overlay">
+        <div class="popup">
+            <span class="popup-close" id="popup-close">&times;</span>
+            <div class="popup-icon">
+                <i class="fas" id="popup-icon"></i>
+            </div>
+            <h3 class="popup-title" id="popup-title">Notification</h3>
+            <div class="popup-message" id="popup-message"></div>
+            <button class="btn popup-btn" id="popup-btn">OK</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
