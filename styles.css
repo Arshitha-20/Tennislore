@@ -179,6 +179,7 @@ nav a:hover {
     color: var(--accent-white);
 }
 
+
 .form-container {
     max-inline-size: 600px;
     margin: 40px auto;
@@ -383,3 +384,85 @@ footer {
     margin: 8px 0;
     color: #495057;
 }
+
+#featured-carousel h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #2E7D32;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.carousel-card {
+    width: 90%;
+    padding: 1.5rem;
+    background: #fff;
+    border: 2px dashed #333; /* Net-like border */
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    transform: scale(1);
+    transition: transform 0.3s;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.carousel-card:hover {
+    transform: scale(1.05);
+}
+
+.carousel-controls {
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+.carousel-controls button {
+    background: #2E7D32;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    cursor: pointer;
+}
+@media (max-width: 768px) {
+  .carousel-card {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .carousel-controls button {
+    padding: 0.3rem 0.6rem;
+    font-size: 1rem;
+  }
+}
+.sponsor-box {
+  padding: 1.5rem;
+  border: 2px solid #2E7D32;
+  background-color: #fff;
+  font-family: "Open Sans", sans-serif;
+  max-width: 400px;
+}
+
+.sponsor-box input {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.sponsor-box button {
+  background-color: #2E7D32;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.toast {
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
